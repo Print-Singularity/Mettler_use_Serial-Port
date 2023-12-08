@@ -40,8 +40,8 @@ async def mettlerweightsend(websocket):
 
 if __name__ == "__main__":
     
-    start_server = websockets.serve(mettlerweightsend, '172.17.22.18', 1901)
-    # start_server = websockets.serve(mettlerweightsend, '172.17.22.17', 1900)
+    start_server = websockets.serve(mettlerweightsend, '1.1.1.1', 1)
+    
 
     asyncio.get_event_loop().run_until_complete(start_server)
     asyncio.get_event_loop().run_forever()
