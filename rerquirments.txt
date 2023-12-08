@@ -1,0 +1,6 @@
+--upgrade pip
+websockets
+serial
+pyserial
+asyncio
+json
